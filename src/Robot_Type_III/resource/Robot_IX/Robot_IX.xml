@@ -619,6 +619,7 @@
                     <t1 abbreviation="t" type="intArray" default="3000"/>
                     <t2 type="intArray" default="3000"/>
                     <margin_offset abbreviation="m" type="double" default="0.01"/>
+                    <require_zero abbreviation="z" type="int" default="0"/>
                 </rc_param>
             </rc>
             <wk default="wk_param">

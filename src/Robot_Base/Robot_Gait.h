@@ -32,7 +32,6 @@ namespace Robots
 			0.3,   -0.85,    -0.65,
 			0.45,  -0.85,    0,
 			0.3,   -0.85,     0.65 };
-        bool is_zeroing_required {false};
 	};
 	auto recoverParse(const std::string &cmd, const std::map<std::string, std::string> &params, aris::core::Msg &msg_out)->void;
 	auto recoverGait(aris::dynamic::Model &model, const aris::dynamic::PlanParamBase & plan_param)->int;

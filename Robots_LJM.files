@@ -1,5 +1,12 @@
 CMakedemo/RobotIX_demo/Client/client.cpp
 CMakedemo/RobotIX_demo/Server/main.cpp
+demo/demo_HexapodIII/main.cpp
+demo/demo_HexapodIV/main.cpp
+demo/demo_Plan/main.cpp
+demo/demo_Plan/plan.cpp
+demo/demo_Plan/plan.h
+demo/demo_RobotServerIII/main.cpp
+demo/demo_Test/main.cpp
 src/Robot_Base/Robot_Base.cpp
 src/Robot_Base/Robot_Base.h
 src/Robot_Base/Robot_Gait.cpp
@@ -12,8 +19,13 @@ src/Robot_Type_I/Robot_Type_I.h
 src/Robot_Type_II/Robot_Type_II.cpp
 src/Robot_Type_II/Robot_Type_II.h
 src/Robot_Type_III/resource/Robot_IX/Robot_IX.xml
+src/Robot_Type_III/resource/Robot_IX/Robot_IX_single_motor.xml
 src/Robot_Type_III/Basic_Gait.cpp
 src/Robot_Type_III/Basic_Gait.h
 src/Robot_Type_III/Robot_Type_III.cpp
 src/Robot_Type_III/Robot_Type_III.h
-src/Robot_Type_III/resource/Robot_IX/Robot_IX_single_motor.xml
+test/creeping_gait.cpp
+test/creeping_gait.h
+test/test_gait.cpp
+test/test_gait.h
+test/test_simple_walk.cpp

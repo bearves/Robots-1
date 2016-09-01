@@ -1,10 +1,6 @@
+demo/demo_Plan
 src/Robot_Base
 src/Robot_Type_I
 src/Robot_Type_II
 src/Robot_Type_III
-../Aris2/src
-../Aris2/src/aris_control
-../Aris2/src/aris_core
-../Aris2/src/aris_dynamic
-../Aris2/src/aris_sensor
-../Aris2/src/aris_server
+test

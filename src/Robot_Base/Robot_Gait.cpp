@@ -135,10 +135,6 @@ namespace Robots
 			{
 				param.margin_offset = std::stod(i.second);
 			}
-			else if (i.first == "require_zero")
-			{
-				param.is_zeroing_required = std::stoi(i.second) == 0 ? false : true;
-			}
 			else
 			{
 				throw std::runtime_error("unknown param in parseRecover func");
@@ -195,10 +191,6 @@ namespace Robots
 
 					robot.pLegs[i]->SetPee(pEE);
 				}
-                if (param.is_zeroing_required && param.count == param.recover_count)
-                {
-                    param.force_data->at(i).isZeroingRequested = true;
-                }
 			}
 		}
 
